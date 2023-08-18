@@ -4,7 +4,7 @@ import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
-import linkedin from "../assets/img/linkedin2.png";
+// import linkedin from "../assets/img/linkedin2.png";
 import github from "../assets/img/github-mark/github-mark/github-mark-white.svg";
 import instagram from "../assets/img/insta.png";
 import logo1 from '../assets/img/yb3.png';

@@ -12,6 +12,7 @@ import projImgER from "../assets/img/ER.png";
 import projImgRE from "../assets/img/real_estate.png";
 import projImgP from "../assets/img/pong.png";
 import projImgPlat from "../assets/img/platformer.png";
+import projImgSS from "../assets/img/observation2.jpeg";
 
 export const Projects = () => {
 
@@ -106,6 +107,14 @@ export const Projects = () => {
       imgUrl: projImgRE,
     },
   ];
+
+  const Pythonprojects = [
+    {
+      title: "ShiftSight",
+      description: "Python Project",
+      imgUrl: projImgSS,
+    },
+  ];
   
 
   return (
@@ -161,7 +170,18 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <h3>Spring Boot Projects</h3>
+                    <Row>
+                        {
+                          Pythonprojects.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
