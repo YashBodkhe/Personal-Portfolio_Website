@@ -58,7 +58,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Yash. `} <br></br><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Game Developer", "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I'm an enthusiastic student with a relentless passion for software development, having explored both game and web realms. My skills span React JS for front-end finesse, LOVE2D for immersive games, and a deep grasp of Java, including Spring Boot. I bring a holistic approach with expertise in MySQL and MongoDB, fusing creativity with technical excellence.</p>
+                  <p>I'm an enthusiastic student with a relentless passion for software development, having explored both game and web realms,deeply intrigued by the realm of data processing and analysis. My skills span React JS for front-end finesse, LOVE2D for immersive games, and a deep grasp of Java, including Spring Boot. I bring a holistic approach with expertise in MySQL and MongoDB, fusing creativity with technical excellence.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
